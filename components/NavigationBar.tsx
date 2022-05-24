@@ -29,7 +29,7 @@ export type NavigationProps = {
 };
 
 /* TODO: Make this more global */
-const appName = 'cerne.xyz';
+const appName = 'ccerne.com';
 
 export function MobileAppBar(props: NavigationProps) {
   const [isOpen, setIsOpen] = React.useState(false);

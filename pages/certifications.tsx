@@ -32,7 +32,7 @@ export default function Certifications() {
                       sx={{maxWidth: 500}}
                       height="100%"
                       component="img"
-                      image="/assets/img/eJPT.png"
+                      image="/assets/img/ejpt.png"
                     />
                     <Button
                       variant="text"

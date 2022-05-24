@@ -6,7 +6,7 @@ import Head from 'next/head';
 import {SiteTitle} from '../src/Config';
 
 export default function Contact() {
-  const myEmail = 'chris' + '@' + 'cerne.xyz';
+  const myEmail = 'contact' + '@' + 'ccerne.com';
   return (
     <div>
       <Head>
@@ -25,10 +25,10 @@ export default function Contact() {
             <Typography variant="body1">
               PGP public key: &nbsp;
               <MuiLink
-                href="/assets/pgp/cerne.xyz.asc"
+                href="/assets/pgp/ccerne.com.asc"
                 sx={{textDecoration: 'none'}}
               >
-                cerne.xyz.asc
+                ccerne.com.asc
               </MuiLink>
             </Typography>
 
@@ -41,7 +41,7 @@ export default function Contact() {
                 display="inline"
                 sx={{overflowWrap: 'break-word'}}
               >
-                594273006b35645f011f06e3145108f80b25e5ea
+                459f4ef4ec05e21c88218805b866cd2e644f1736
               </Typography>
             </Typography>
           </Stack>
