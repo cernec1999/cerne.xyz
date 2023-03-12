@@ -29,7 +29,7 @@ export const SiteNavigation: Page[] = [
   {title: 'Contact', url: '/contact'},
   {title: 'Bug Reports', url: '/reports'},
   {title: 'Certifications', url: '/certifications'},
-  {title: 'Resume', url: '/assets/res/resume-rev-4.pdf'},
+  {title: 'Resume', url: '/assets/res/resume-rev-5.pdf'},
 ];
 
 /** The GraphQL server we get our content from */
