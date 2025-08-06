@@ -104,7 +104,10 @@ export default function HomePage() {
         <title>{SiteTitle} | Home</title>
         <meta property="og:title" content={`${SiteTitle} | Home`} />
         <meta property="og:description" content={summary} />
-        <meta property="og:image" content="/assets/img/cerne-headshot-transparent.png" />
+        <meta
+          property="og:image"
+          content="/assets/img/cerne-headshot-transparent.png"
+        />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.ccerne.com/" />
       </Head>
